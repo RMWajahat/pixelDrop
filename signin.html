@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!---------------------CSS Link (Pixel Drop)---------------->
+    <link rel="stylesheet" href="pixeldrop.css">
+    <!---------------------Google Fonts link-------------------->
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@100;200;300;500;600;700;900&family=Nunito+Sans:wght@200;300;400;700&family=Readex+Pro:wght@200;300;500&family=Roboto:ital,wght@0,300;0,400;0,700;1,300&display=swap" rel="stylesheet">
+    <!---------------------Fonts Awesome CDN--------------------->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.1/css/all.min.css" integrity="sha512-gMjQeDaELJ0ryCI+FtItusU9MkAifCZcGq789FrzkiM49D8lbDhoaUaIX4ASU187wofMNlgBJ4ckbrXM9sE6Pg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Pixel Drop</title>
+</head>
+<body>
+    <header class="header abt_header">
+        <nav class="nav">
+            <div class="logo">
+                <a href="index.html"><h3>pixel <span>Drop</span></h3></a>
+            </div>
+            <div class="navlinks">
+                <i class="fa fa-bars" aria-hidden="true" onclick="showmenu()"></i>
+                <li id="navlinks">
+                <ul><i class="fa fa-times" aria-hidden="true" onclick="hidemenu()"></i></ul>
+                <ul><a href="index.html">home</a></ul>
+                <ul><a href="about.html">about</a></ul>
+                <ul class="block">
+                <details  class="drpdown">
+                <summary class="collection">Collections</summary>
+                <li><a href="people.html">People</a>
+                    <a href="nature.html">nature</a>
+                    <a href="cars.html">cars</a>
+                    <a href="animals.html">animals</a></li>
+                </details>
+            </ul>
+                <ul><a href="https://api.whatsapp.com/send?phone=+923463336286" class="hire" target="_blank">Hire now</a></ul>
+                <ul><a href="login.html">Login</a></ul>
+                <ul><details class="search">
+                    <summary><i class="fa fa-search" aria-hidden="true"></i></summary>
+                    <input type="search" placeholder="Search images..">
+                </details></ul>
+                </li>
+            </div>
+        </nav>
+        <div class="type">
+            <h1>SIGNIN</h1>
+        </div>
+        <div class="abt_icons">
+            <i class="far fa-user"></i>
+        </div>
+    </header>
+        <!--------------------------------SIGNUP WEBPAGE----------------------------->
+   <footer class="section footer">
+    <div class="register">
+        <form action="request.php" class="login" method="POST">
+            <i class="far fa-user user-login"></i>
+            <h1>SIGNIN</h1>
+            <div class="access">
+                <input type="text" placeholder="USERNAME" name="username" id="username" required>
+                <input type="email" placeholder="Enter your Email" name="Email" id="Email" required>
+                <input type="number" placeholder="+92 123 4567890" name="Mobile_number" id="Mobile number" required>
+                <input type="password" name="pin" id="password" required placeholder="********">
+                <input type="password" name="cpin" id="password" required placeholder="Confirm Password">
+                <span><input type="submit" value="Register" name = "reg" class="b"><br>
+                    <input type="reset" value="Clear Form" class="b"></span>
+                    <p>
+                        <a href="login.html">Login instead</a></p>
+            </div>
+        </form>
+    </div>
+        <p class="__developers">The website made by project parteners Mr.Muhammad Wajahat Hussain</p>
+        <div class="social">
+            <a href="https://instagram.com/wajahat.raja_01/" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.linkedin.com/in/muhammad-wajahat-hussain-0b5177225" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+           <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+           <a href="mailto:rajawajahathussain2003@gmail.com" target="_blank"><i class="far fa-envelope"></i></a>
+        </div>
+    </div>
+    <br>
+    <br>
+    <small>All rights reserved to Pixel Drop 2022. &copy;</small><br>
+    <small>Pixel Drop 2022. &reg;</small>
+   </footer>
+   
+
+
+
+   <!--=----========================JAVASCRIPT=====================================-->
+   <script src="./pixeldrop.js"></script>
+</body>
+</html>

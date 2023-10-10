@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!---------------------CSS Link (Pixel Drop)---------------->
+    <link rel="stylesheet" href="pixeldrop.css">
+    <!---------------------Google Fonts link-------------------->
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@100;200;300;500;600;700;900&family=Nunito+Sans:wght@200;300;400;700&family=Readex+Pro:wght@200;300;500&family=Roboto:ital,wght@0,300;0,400;0,700;1,300&display=swap" rel="stylesheet">
+    <!---------------------Fonts Awesome CDN--------------------->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.1/css/all.min.css" integrity="sha512-gMjQeDaELJ0ryCI+FtItusU9MkAifCZcGq789FrzkiM49D8lbDhoaUaIX4ASU187wofMNlgBJ4ckbrXM9sE6Pg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Pixel Drop</title>
+</head>
+<body>
+    <header class="header abt_header">
+        <nav class="nav">
+            <div class="logo">
+                <a href="index.html"><h3>pixel <span>Drop</span></h3></a>
+            </div>
+            <div class="navlinks">
+                <i class="fa fa-bars" aria-hidden="true" onclick="showmenu()"></i>
+                <li id="navlinks">
+                <ul><i class="fa fa-times" aria-hidden="true" onclick="hidemenu()"></i></ul>
+                <ul><a href="index.html">home</a></ul>
+                <ul><a href="about.html">about</a></ul>
+                <ul class="block">
+                <details  class="drpdown">
+                <summary class="collection">Collections</summary>
+                <li><a href="people.html">People</a>
+                    <a href="nature.html">nature</a>
+                    <a href="cars.html">cars</a>
+                    <a href="animals.html">animals</a></li>
+                </details>
+            </ul>
+                <ul><a href="https://api.whatsapp.com/send/?phone=03463336286" class="hire" target="_blank">Hire now</a></ul>
+                <ul><a href="login.html">Login</a></ul>
+                <ul><details class="search">
+                    <summary><i class="fa fa-search" aria-hidden="true"></i></summary>
+                    <input type="search" placeholder="Search images..">
+                </details></ul>
+                </li>
+            </div>
+        </nav>
+        <div class="type">
+            <h1>ABOUT US</h1>
+        </div>
+        <div class="abt_icons">
+            <i class="far fa-envelope"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-linkedin-in"></i>
+        </div>
+    </header>
+        <!--------------------------------ABOUT US WEBPAGE----------------------------->
+   <footer class="section footer">
+    <div class="foot">
+        <h1>About Us</h1>
+        <small>This epic dynamic photography website was developed by two students of UET Taxila<br>from the batch 2022.</small>
+        <div class="personal">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6633.764360735821!2d72.82026592226676!3d33.763710322741474!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38dfa5a82737d54d%3A0x5d9b1d2c1aefdbc4!2sDepartment%20of%20Computer%20Science!5e0!3m2!1sen!2s!4v1670250901419!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="map"> </iframe>
+            <div class="contact">
+                <div class="location">
+                    <div class="data">
+                        <i class="fa fa-location-arrow" aria-hidden="true"></i>
+                        <small class="texxt">UET Taxila Computer Science department near gate 1 entrance. <br>Cantonment Board Taxila</small>
+                    </div>
+                    <div class="data">
+                        <i class="fa fa-envelope" aria-hidden="true"></i>
+                        <small class="texxt">pixeldrop_official@gmial.com</small>
+                    </div>
+                    <div class="data">
+                        <i class="fa fa-phone" aria-hidden="true"></i>
+                        <small class="texxt">+92 346 3336286<br>+92 21 3838925</small>
+                    </div>
+                </div>
+                <!------------------------CONTACT FORM------------------------->
+                <div class="contact_form">
+                    <h2>Contact Form</h2>
+                    <form action="https://formspree.io/f/xdojqeyp" method="post" id="form">
+                        <p class="input red">*is required.</p>
+                        <p class="input">Name <span class="red">*</span><br><input type="text" placeholder="Enter your full name" name="name" id="name" required></p>
+                        <p class="input">Phone <span class="red">*</span><br><input type="number" placeholder="Your mobile number." name="phone" id="mobile no." required></p>
+                        <p class="input">Company <br><input type="text" placeholder="Enter your company." name="Company" id="Company" ></p>
+                        <p class="input">Email <span class="red">*</span><br><input type="email" placeholder="Enter emial address." name="Email" id="email" required></p>
+                        <p class="input">CNIC <span class="red">*</span><br><input type="number" placeholder="XXXXX-XXXXXXX-X" name="CNIC" id="CNIC" required></p>
+                        <p class="input">Gender<span class="red">*</span></p>
+                        <p class="input"><input type="radio" name="gender" value="male" id="male" >Male
+                        <input type="radio" name="gender" id="female" value="male" >Female</p>
+                        <p class="input">Suggestions <span class="red">*</span><br><textarea name="suggestions" id="suggestions" cols="10" rows="6" placeholder="Type here your suggestions.."></textarea></p>
+                        <p class="input"><input type="checkbox" name="verify" id="verification" required> Verification</p>
+                        <p class="input"><input type="submit" value="Submit">
+                        <input type="reset" value="Reset"></p>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="owners_area"><h1>Owners</h1>
+        <small>About the owners of company.<br>
+        Where a great story begins.</small></div>
+        <div class="own_r">
+            <div class="own">
+               <div> <img src="./pixeldrop-assets/pixeldrop_owner.jpeg" alt="" class="own_img"></div>
+                <div class="own_details">
+                    <h1>M. Wajahat Hussain</h1>
+                    <small>Owner PixelDrop & CEO</small>
+                    <p>Muhammad Wajahat Hussain (born January 01, 2003) is an Pakistani business magnate and nature photographer. He is a founder of PixelDrop.During his career at PixelDrop, Wajahat held the positions of chairman, chief executive officer (CEO), president and chief media representater, while also being the largest individual shareholder until December 2022.[4] He was a major entrepreneur of the business revolution of the 2020s and 2022s.
+                    <br>
+                    Muhammad Wajahat Hussain (born January 01, 2003) is an Pakistani business magnate and nature photographer. He is a founder of PixelDrop.During his career at PixelDrop, Wajahat held the positions of chairman, chief executive officer (CEO), president and chief media representater, while also being the largest individual shareholder until December 2022.[4] He was a major entrepreneur of the business revolution of the 2020s and 2022s.</p>
+                </div>
+            </div>
+            <div class="own_2">
+                <div class="own_details">
+                    <h1>Ravia Kiran</h1>
+                    <small>Director General PixelDrop</small>
+                    <p>Ravia Kiran (born Month Day, Year) is an Pakistani business magnate and nature photographer. She is a founder of PixelDrop.During her career at PixelDrop, Ravia held the positions of chairman, general manager (GM),Director General (DG) and chief media representator, while also being the largest individual shareholder until December 2022.She was a major entrepreneur of the business revolution of the 2021s and 2022s.
+                    <br>
+                     Ravia Kiran (born Month Day, Year) is an Pakistani business magnate and nature photographer. She is a founder of PixelDrop.During her career at PixelDrop, Ravia held the positions of chairman, general manager (GM),Director General (DG) and chief media representator, while also being the largest individual shareholder until December 2022.She was a major entrepreneur of the business revolution of the 2021s and 2022s.</p>
+                </div>
+                <div><img src="./pixeldrop-assets/GM.jpg" alt="" class="own_img own_img_2"></div>
+            </div>
+        </div>
+        <p class="__developers">The website made by Mr.Muhammad Wajahat Hussain.</p>
+        <div class="social">
+            <a href="https://instagram.com/wajahat.raja_01/" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.linkedin.com/in/muhammad-wajahat-hussain-0b5177225" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+           <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+           <a href="mailto:rajawajahathussain2003@gmail.com" target="_blank"><i class="far fa-envelope"></i></a>
+        </div>
+    </div>
+    <br>
+    <br>
+    <small>All rights reserved to Pixel Drop 2022. &copy;</small><br>
+    <small>Pixel Drop 2022. &reg;</small>
+   </footer>
+   
+
+
+
+   <!--=----========================JAVASCRIPT=====================================-->
+   <script src="./pixeldrop.js"></script>
+</body>
+</html>
